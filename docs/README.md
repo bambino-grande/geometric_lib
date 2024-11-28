@@ -1,4 +1,3 @@
-```markdown
 # Документация проекта
 
 ## Общее описание решения
@@ -200,7 +199,9 @@ area of square is 16
 ```
 
 ## История изменений проекта с хэшами коммитов (кроме последней записи)
+```
 61e8c361459abd7f85d3ec4b050962780f6c062d (HEAD -> new_features_466428, origin/new_features_466428) The error was fixed and a new file was added  
 239bceb231f7803984a77dc53b4fa24df46b6f92 New file has been added  
 d078c8d9ee6155f3cb0e577d28d337b791de28e2 (origin/main, origin/HEAD, main) L-03: Docs added  
 8ba9aeb3cea847b63a91ac378a2a6db758682460 L-03: Circle and square added
+```
