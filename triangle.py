@@ -12,6 +12,10 @@ def area(a, b, c):
     '''        
     return (a + b + c) / 2
 
+    '''Пример вызовы
+    area(10, 5)     25
+    area(2, 4)      4
+    '''
 
 def perimeter(a, b, c):
     '''
@@ -26,3 +30,8 @@ def perimeter(a, b, c):
             (float): периметр треугольника
     '''
     return a + b + c
+
+    '''Пример вызовы
+    perimeter(3.0, 4.0, 5.0)    12.0
+    perimeter(6.5, 7.2, 8.3)    22.0
+    '''

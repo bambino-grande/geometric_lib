@@ -164,40 +164,6 @@ funcs = ['perimeter', 'area']
 sizes = {}
 ```
 
-#### Функция calc(fig, func, size)
-```python
-def calc(fig, func, size):
-    """
-    Возвращает значение заданной функции для указанной фигуры на основе её размеров
-
-        Параметры:
-                func (str): название функции (perimeter или area)
-                fig (str): название фигуры (circle или square)
-                size (list): список размеров фигуры (для круга - радиус, для квадрата - сторона)
-
-        Возвращаемое значение
-                (float): результат вычисления функции для указанной фигуры
-    """
-    assert fig in figs
-    assert func in funcs
-
-    result = eval(f'{fig}.{func}(*{size})')
-    print(f'{func} of {fig} is {result}')
-```
-
-##### Примеры вызова:
-```python
-# для круга
-# если radius = 5
->>> calc('circle', 'perimeter', [5])
-perimeter of circle is 31.4159
-
-# для квадрата
-# если side = 4
->>> calc('square', 'area', [4])
-area of square is 16
-```
-
 ## История изменений проекта с хэшами коммитов (кроме последней записи)
 ```
 61e8c361459abd7f85d3ec4b050962780f6c062d (HEAD -> new_features_466428, origin/new_features_466428) The error was fixed and a new file was added  
