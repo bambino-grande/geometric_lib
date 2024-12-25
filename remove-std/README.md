@@ -1,71 +1,60 @@
-# remove-std README
+1. Описание расширения
+Название: remove-std
 
-This is the README for your extension "remove-std". After writing up a brief description, we recommend including the following sections.
+Описание:
+Расширение remove-std для Visual Studio Code предназначено для автоматического удаления всех вхождений префикса std:: из кода на языке C++. Это упрощает код, делая его более чистым и читаемым, особенно для тех разработчиков, которые предпочитают не использовать пространство имен std.
 
-## Features
+2. Установка расширения
+Открытие Visual Studio Code: Запустите ваш редактор Visual Studio Code.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Переход в Marketplace:
 
-For example if there is an image subfolder under your extension project workspace:
+Нажмите на иконку расширений на боковой панели (или используйте шорткат Ctrl+Shift+X).
+В строке поиска введите remove-std.
+Установка расширения:
 
-\!\[feature X\]\(images/feature-x.png\)
+Найдите расширение remove-std в списке результатов.
+Нажмите кнопку Install для установки расширения.
+Перезагрузка VS Code (при необходимости): Некоторые расширения требуют перезагрузки редактора после установки. Если появится соответствующее уведомление, перезагрузите VS Code.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+3. Настройка расширения
+По умолчанию, расширение настроено для удаления всех вхождений std:: с помощью комбинации клавиш Ctrl + Alt + R. Если вы хотите изменить эту комбинацию или добавить другие настройки, выполните следующие шаги:
 
-## Requirements
+Открытие настроек шорткатов:
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Перейдите в меню File > Preferences > Keyboard Shortcuts (или используйте шорткат Ctrl + K Ctrl + S).
+Поиск команды:
 
-## Extension Settings
+В строке поиска введите Remove std::.
+Изменение шортката:
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Найдите команду Remove std::.
+Нажмите на иконку редактирования рядом с ней и введите новую комбинацию клавиш.
+Нажмите Enter для сохранения изменений.
+Добавление новых шорткатов (опционально):
 
-For example:
+Если необходимо, можно добавить дополнительные комбинации клавиш для одной команды.
+4. Использование расширения
+Удаление std:: во всем файле
+Открытие файла:
 
-This extension contributes the following settings:
+Откройте C++ файл в VS Code, из которого вы хотите удалить std::.
+Выполнение команды:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Нажмите комбинацию клавиш Ctrl + Alt + R.
+Все вхождения std:: будут удалены из всего файла.
+Удаление std:: в выделенной области
+Выделение текста:
 
-## Known Issues
+Выделите ту область кода, из которой вы хотите удалить std::.
+Выполнение команды:
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Нажмите комбинацию клавиш Ctrl + Alt + R.
+Все вхождения std:: будут удалены только из выделенной области.
+5. Горячие клавиши
+По умолчанию:
 
-## Release Notes
+Удаление std::: Ctrl + Alt + R
+Настройка горячих клавиш:
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Вы можете изменить или добавить новые комбинации клавиш для команды remove-std.removeStd через настройки шорткатов, как описано в разделе Настройка расширения.
